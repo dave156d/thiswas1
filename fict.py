@@ -1,4 +1,7 @@
 # this is a comment
+"""
+this is also a comment
+"""
 num1 = float(input("Enter first number: "))
 op = input("Enter an operator: ")
 num2 = float(input("Enter third number: "))
@@ -12,4 +15,4 @@ elif op == ("/"):
 elif op == ("*"):
     print(num1*num2)
 else:
-    print("Invalid operator")
+    print("Invalid operator noted ")
